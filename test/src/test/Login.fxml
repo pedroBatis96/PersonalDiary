@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMousePressed="#ShowLabelUser" prefHeight="350.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.LoginController">
+   <children>
+      <Button id="orange" fx:id="btnLogin" layoutX="97.0" layoutY="243.0" mnemonicParsing="false" opacity="0.6" prefHeight="27.0" prefWidth="170.0" stylesheets="@application.css" text="Login" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="85.625">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="12.0" />
+         </font></Button>
+      <Button id="grey" fx:id="btnRegistar" layoutX="97.0" layoutY="283.0" mnemonicParsing="false" onAction="#Login" opacity="0.6" prefHeight="27.0" prefWidth="170.0" stylesheets="@application.css" text="Registar" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="85.625">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="12.0" />
+         </font></Button>
+      <Label layoutX="97.0" layoutY="14.0" opacity="0.6" prefHeight="68.0" prefWidth="170.0" text="Something Something Harry Potter" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="85.625">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUsername" layoutX="97.0" layoutY="120.0" opacity="0.6" prefHeight="30.0" prefWidth="170.0" promptText="Username" style="-fx-border-radius: 10; -fx-background-radius: 10;" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="85.625">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="12.0" />
+         </font>
+      </TextField>
+      <Label fx:id="lblQuotes" alignment="TOP_LEFT" layoutX="441.0" layoutY="31.0" opacity="0.6" prefHeight="291.0" prefWidth="184.0" wrapText="true" AnchorPane.rightAnchor="85.625">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblUsername" layoutX="97.0" layoutY="93.0" opacity="0.6" prefHeight="27.0" prefWidth="89.0" style="-fx-text-fill: blue;" text="Username" visible="false" wrapText="true" AnchorPane.bottomAnchor="230.0" AnchorPane.leftAnchor="85.625">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPass" layoutX="97.0" layoutY="163.0" opacity="0.6" prefHeight="27.0" prefWidth="89.0" style="-fx-text-fill: blue;" text="Password" visible="false" wrapText="true" AnchorPane.bottomAnchor="160.0" AnchorPane.leftAnchor="85.625">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="12.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtPassword" layoutX="97.0" layoutY="190.0" opacity="0.6" prefHeight="30.0" prefWidth="170.0" promptText="Password" style="-fx-background-radius: 10; -fx-border-radius: 10;" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="85.625">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="12.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>

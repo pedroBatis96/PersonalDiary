@@ -1,0 +1,101 @@
+.text-area .content {
+    -fx-background-color: text-area-background ;
+}
+
+.combo-box-popup .list-view {
+    -fx-font-size : 14pt;
+}
+
+
+.combo-box-popup .list-view .list-cell {
+    -fx-padding: -1 -1 -1 -1;
+}
+
+#blue {
+    -fx-background-color:
+        linear-gradient(#abe4f8, #74d0f4);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+	-fx-cursor: hand;
+}
+
+#blue:hover {
+    -fx-background-color:
+    linear-gradient(#80d4f5, #92dbf6);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+#green {
+    -fx-background-color:
+    linear-gradient(#cae285, #a3cd5a);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+#green:hover {
+    -fx-background-color:
+        linear-gradient(#abd164, #b9d972);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+	-fx-cursor: hand;
+}
+
+
+#orange {
+    -fx-background-color:
+        linear-gradient(#feda71, #febe4d);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+	-fx-cursor: hand;
+}
+
+#orange:hover {
+    -fx-background-color:
+        linear-gradient(#fec455, #fecd61);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+	-fx-cursor: hand;
+}
+
+#grey {
+    -fx-background-color:
+        linear-gradient(#d1d1d1, #afafaf);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+	-fx-cursor: hand;
+}
+
+#grey:hover {
+    -fx-background-color:
+        linear-gradient(#b7b7b7, #c2c2c2);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+	-fx-cursor: hand;
+}

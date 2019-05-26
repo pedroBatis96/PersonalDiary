@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <Family>Lucida Calligraphy</Family>
+    <Size>20.0</Size>
+    <iconColor>w</iconColor>
+    <menuColorSelected>#fb8122</menuColorSelected>
+    <menuColorUnselected>#1d2228</menuColorUnselected>
+    <appColor>#e1e2e2</appColor>
+    <FontColor>black</FontColor>
+    <FontPageColor>#1a1a1aff</FontPageColor>
+    <PageColor></PageColor>
+    <theme>Orange</theme>
+</settings>
